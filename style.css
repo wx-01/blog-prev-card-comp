@@ -1,0 +1,73 @@
+body{
+          margin: 0;
+           min-height: 100vh;
+           width: 100%;
+           font-family: "Figtree", serif;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           background-color: hsl(47, 88%, 63%);
+           gap: 15px;
+}
+.card{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          background-color: hsl(0, 0%, 100%);
+          width: 320px;
+          border: 1px solid;
+          padding: 18px;
+          border-radius: 15px;
+          box-shadow: 5px 5px;
+}
+.image{
+          width: 100%;
+          border-radius: 10px;
+}
+.button{
+          height: 29px;
+          width: 69px;
+          margin-top: 16px;
+          font-weight: bold;
+          background-color: hsl(47, 88%, 63%);
+          border-radius: 3px;
+          border: none;
+}
+.publish{
+          font-size: 13px;
+          margin-top: 10px;
+          color:  hsl(0, 0%, 7%);
+}
+.heading:hover{
+         cursor: pointer;
+         color: hsl(47, 88%, 63%);
+}
+.description{
+          font-size: 17px;
+          margin-top: 15px;
+          color: hsl(0, 0%, 42%);
+}
+.author{
+          display: flex;
+          
+}
+.author-name{
+          font-size: 12px;
+          font-weight: bold;
+          margin-top: 18px;
+}
+.auth-image{
+          width: 29px;
+          height: 29px;
+          margin-top: 11px;
+          margin-right: 6px;
+}
+.attribution {
+          font-size: 11px;
+          text-align: center;
+        }
+    
+        .attribution a {
+          color: hsl(228, 45%, 44%);
+        }
